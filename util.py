@@ -1,5 +1,6 @@
 import numpy as np
 import pandas as pd
+from sklearn.utils import shuffle
 
 data_path = '../data/fer2013.csv'
 
