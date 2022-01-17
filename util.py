@@ -102,7 +102,7 @@ def getBinaryData():
     Y = []
     X = []
     first = True
-    for line in open('fer2013.csv'):
+    for line in open(data_path):
         if first:
             first = False
         else:
